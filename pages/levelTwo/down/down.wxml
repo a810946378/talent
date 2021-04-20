@@ -3,12 +3,12 @@
     <down-header 
         title="下载图片"
     ></down-header>
-    <view class="content" style="height:calc(100% - 155rpx - {{contentHeight}}px)">
+    <view class="content" style="height:calc(100% - 125rpx - {{contentHeight}}px)">
         <view class="username">
             <view>亲爱的{{userName}}</view>
             <view>恭喜您获得达人现身勋章！</view>
         </view>
-        <image mode="scaleToFill" style="width:100%; height:calc(100vh - 185rpx - {{contentHeight}}px)" class="down-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/level-down.png"></image>
+        <image mode="scaleToFill" style="width:100%; height:calc(100vh - 155rpx - {{contentHeight}}px)" class="down-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/level-down.png"></image>
     </view>
     <view class="button-area">
         <view class="button cancel" bindtap="goBack">取消</view>

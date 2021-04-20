@@ -74,7 +74,7 @@ Page({
                     {option:"A",des:"EdgeGallery",index:0,status:""},
                     {option:"B",des:"KubeEdge",index:1,status:""},
                     {option:"C",des:"ServiceComb",index:2,status:""},
-                    {option:"D",des:"EdgeGallery",index:3,status:""}
+                    {option:"D",des:"Kubernetes",index:3,status:""}
                 ],
                 answer:"A"
             },

@@ -6,7 +6,7 @@
 }
 .level-one-down .content{
     width: 100%;
-    padding: 30rpx 50rpx 0;
+    padding: 30rpx 50rpx;
     box-sizing: border-box;
     background: #F5F7FA;
 }
@@ -24,8 +24,8 @@
     color: #ffffff;
 }
 .level-one-down .button-area{
-    margin: 50rpx 0 15rpx;
-    padding: 0 30rpx;
+    margin: 20rpx 0 15rpx;
+    padding: 0 40rpx;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 .level-one-down .button.cancel{
     background: linear-gradient(180deg, #FF9290 0%, #FE5957 100%);
