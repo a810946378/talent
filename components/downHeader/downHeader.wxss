@@ -1,0 +1,18 @@
+/* components/downHeader/downHeader.wxss *//* components/header/header.wxss */
+.header{
+    width: 750rpx;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 37rpx;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+}
+.header .back-icon{
+    position: absolute;
+    left: 30rpx;
+    bottom: 5px;
+    width: 21rpx;
+    height: 35rpx;
+}

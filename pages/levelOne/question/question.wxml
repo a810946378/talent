@@ -1,0 +1,33 @@
+<!--pages/levelOne/question/question.wxml-->
+<view class="level-one-question">
+    <my-header 
+        title="第一关"
+    ></my-header>
+    <image mode="scaleToFill" class="question-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/level1-question.png"></image>
+    <view class="question">
+        <view class="title">{{nowtopicCount}}.选择图形对应的开源基金会</view>
+        <image class="img" mode="heightFix" src="{{nowtopic.imgUrl}}"></image>
+        <view class="page">{{nowtopicCount}}/5</view>
+    </view>
+    <view 
+        wx:for="{{nowtopic.answerList}}" 
+        wx:key="option"
+        class="answerbutton {{'answer'+item.option}} {{item.status}}"
+        bindtap="handleClick"
+        data-item="{{item}}"
+    >
+        {{item.des}}
+        <image wx:if="{{item.status}}" class="item-icon" src="{{item.status=='error'?'/img/iserror.png':'/img/istrue.png'}}"></image>
+    </view>      
+    <view wx:if="{{fail}}" class="fail-view">
+        <image class="fail-img" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/level-fail.png"></image>
+        <view class="fail-area">
+            <text class="des">您可以微信分享复活哦～</text>
+            <view class="button-area">
+                <view class="button share" bindtap="restart">重新挑战</view>
+                <navigator class="button close" hover-class="none" target="miniProgram" open-type="exit">闭关修炼，下次再战</navigator>
+            </view>
+        </view>
+    </view>
+</view>
+

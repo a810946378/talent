@@ -1,0 +1,7 @@
+<!--components/header/header.wxml-->
+<view class="header" style="height:{{height}}px">
+    <text 
+        style="line-height:{{titleHeight}}px" 
+        class="title"
+    >{{title}}</text>
+</view>

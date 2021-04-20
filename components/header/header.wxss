@@ -1,0 +1,14 @@
+/* components/header/header.wxss */
+.header{
+    width: 750rpx;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    font-size: 37rpx;
+    font-weight: 500;
+    color: #000;
+}

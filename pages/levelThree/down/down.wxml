@@ -1,0 +1,21 @@
+<!--pages/levelOne/down/down.wxml-->
+<view class="level-one-down">
+    <down-header 
+        title="下载图片"
+    ></down-header>
+    <view class="content" style="height:calc(100% - 155rpx - {{contentHeight}}px)">
+        <view class="username">
+            <view>亲爱的{{userName}}</view>
+            <view>恭喜您获得达人现身勋章！</view>
+        </view>
+        <image mode="scaleToFill" style="width:100%; height:calc(100vh - 185rpx - {{contentHeight}}px)" class="down-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level3/level-down.png"></image>
+    </view>
+    <view class="button-area">
+        <view class="button cancel" bindtap="goBack">取消</view>
+        <view class="button save" bindtap="saveImg">保存到相册</view>
+    </view>
+    <view class="canvas">
+        <wxml-to-canvas class="widget" width="375" height="750"></wxml-to-canvas>
+    </view>
+</view>
+

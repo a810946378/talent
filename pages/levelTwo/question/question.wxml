@@ -1,0 +1,23 @@
+<!--pages/levelOne/question/question.wxml-->
+<view class="level-one-question">
+    <my-header 
+        title="第二关"
+    ></my-header>
+    <image mode="scaleToFill" class="question-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/level1-question.png"></image>
+    <view class="question">
+        <view class="title">{{nowtopicCount}}.选择图形对应的开源项目</view>
+        <image class="img" mode="heightFix" src="{{nowtopic.imgUrl}}"></image>
+        <view class="page">{{nowtopicCount}}/5</view>
+    </view>
+    <view 
+        wx:for="{{nowtopic.answerList}}" 
+        wx:key="option"
+        class="answerbutton {{'answer'+item.option}} {{item.status}}"
+        bindtap="handleClick"
+        data-item="{{item}}"
+    >
+        {{item.des}}
+        <image wx:if="{{item.status}}" class="item-icon" src="{{item.status=='error'?'/img/iserror.png':'/img/istrue.png'}}"></image>
+    </view>
+</view>
+

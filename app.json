@@ -1,0 +1,41 @@
+{
+    "plugins": {
+        "tencentVideo": {
+            "version": "1.3.6",
+            "provider": "wxa75efa648b60994b"
+        }
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "需要获取您的位置信息"
+        }
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/levelOne/start/start",
+        "pages/levelOne/question/question",
+        "pages/levelOne/success/success",
+        "pages/levelOne/down/down",
+        "pages/levelTwo/start/start",
+        "pages/levelTwo/question/question",
+        "pages/levelTwo/success/success",
+        "pages/levelTwo/down/down",
+        "pages/levelTwo/fail/fail",
+        "pages/levelThree/start/start",
+        "pages/levelThree/question/question",
+        "pages/levelThree/success/success",
+        "pages/levelThree/down/down",
+        "pages/levelThree/fail/fail"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "sitemapLocation": "sitemap30.json",
+    "usingComponents": {
+        "my-header": "/components/header/header",
+        "wxml-to-canvas": "wxml-to-canvas"
+    }
+}

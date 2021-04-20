@@ -1,0 +1,10 @@
+<!--pages/levelOne/success/success.wxml-->
+<view class="level-one-success">
+    <my-header 
+        title="召唤成功"
+    ></my-header>
+    <image mode="scaleToFill" class="success-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level3/level-success.png"></image>
+    <view class="subutton continue">立即分享</view>
+    <view class="subutton down" bindtap="down">下载图片</view>
+    <navigator class="subutton close" hover-class="none" target="miniProgram" open-type="exit">立即结束</navigator>
+</view>

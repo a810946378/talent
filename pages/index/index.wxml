@@ -1,0 +1,13 @@
+<view class="home-page">
+    <my-header 
+        title="召唤开源达人"
+    ></my-header>
+    <image bindload="loadImgSuccess" mode="scaleToFill" class="bg-start" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/start.png"></image>
+    <view class="start-progress">
+        <text class="num">{{progressWidth}}%</text>
+        <view style="width:{{progressWidth}}%" class="progress-content"></view>
+    </view>
+    <button class="start" wx:if="{{canIUseGetUserProfile}}" bindtap="goStart"> 立即开始 </button>
+    <button class="start" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 立即开始 </button>
+    <!-- <text class="start" bindtap="goStart">立即开始</text> -->
+</view>

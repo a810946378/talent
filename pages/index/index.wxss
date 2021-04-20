@@ -1,0 +1,48 @@
+.home-page{
+    width: 750rpx;
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+}
+.bg-start{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.start-progress{
+    position: absolute;
+    top: 67.1%;
+    left: 12.7%;
+    width: 558rpx;
+    height: 46rpx;
+    background: #fff;
+    border-radius: 18px;
+}
+.progress-content{
+    border-radius: 18px;
+    height: 46rpx;
+    background:linear-gradient(to right , #519FD6 , #4DE3F7);
+}
+.start-progress .num{
+    position: absolute;
+    font-size: 28rpx;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home-page .start{
+    position: absolute;
+    top: 76.4%;
+    left: 37.5%;
+    text-shadow: 0px 4px 4px #006AAE;
+    font-weight: 600;
+    font-size: 36rpx;
+    color: #fff;
+    background: transparent;
+}
+.home-page .start::after{
+    display: none;
+}

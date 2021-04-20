@@ -1,0 +1,14 @@
+<!--pages/levelOne/start/start.wxml-->
+<view class="level-one">
+    <my-header 
+        title="{{activeStep==0?'第二关':'召唤开源达人'}}"
+    ></my-header>
+    <image mode="scaleToFill" bindload="loadImgSuccess" class="start-bg" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/start-bg.png"></image>
+    <text wx:if="{{activeStep>0}}" class="level-one-num">{{activeStep}}</text>
+    <image class="step3" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/step-active3.png"></image>
+    <image class="step2" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/step2.png"></image>
+    <image class="step2" wx:if="{{activeStep<3}}" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/step-active2.png"></image>
+    <image class="step1" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/step1.png"></image>
+    <image class="step1" wx:if="{{activeStep<2}}" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/step-active1.png"></image>
+    <image class="step0" wx:if="{{activeStep<1}}" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/step0.png"></image>
+</view>

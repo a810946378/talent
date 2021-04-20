@@ -1,0 +1,52 @@
+/* pages/levelOne/down/down.wxss */
+.level-one-down{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.level-one-down .content{
+    width: 100%;
+    padding: 30rpx 50rpx 0;
+    box-sizing: border-box;
+    background: #F5F7FA;
+}
+.level-one-down .content .username{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 44%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 25rpx;
+    color: #ffffff;
+}
+.level-one-down .content .down-bg{
+    width: 100%;
+}
+.level-one-down .button-area{
+    margin: 50rpx 0 15rpx;
+    padding: 0 30rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.level-one-down .button{
+    width: 44%;
+    height: 90rpx;
+    border-radius: 18rpx;
+    font-size: 36rpx;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.level-one-down .button.cancel{
+    background: linear-gradient(180deg, #FF9290 0%, #FE5957 100%);
+}
+.level-one-down .button.save{
+    background: linear-gradient(180deg, #BD94F3 0%, #885BE4 100%);
+}
+.level-one-down .canvas{
+    height: 0;
+    overflow: hidden;
+}
