@@ -27,10 +27,7 @@ Page({
     },
 
     onHide: function () {
-        clearInterval(this.data.timer)
-        this.setData({
-            timer:null
-        })
+ 
     },
     onShareAppMessage: function() {
 		return {

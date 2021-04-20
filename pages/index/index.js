@@ -26,25 +26,15 @@ Page({
 	},
 	goStart: function() {
 		if( this.data.canStart ){
-			wx.getStorage({
-				key: 'userInfo',
-				success: function() {
+			wx.getUserProfile({
+				desc: '用于获得勋章的展示', 
+				success: (res) => {
+					wx.setStorage({
+						key: "userInfo",
+						data: JSON.stringify(res.userInfo)
+					})
 					wx.navigateTo({
 						url: '/pages/levelOne/start/start'
-					})
-				},
-				fail: function(){
-					wx.getUserProfile({
-						desc: '用于获得勋章的展示', 
-						success: (res) => {
-							wx.setStorage({
-								key: "userInfo",
-								data: JSON.stringify(res.userInfo)
-							})
-							wx.navigateTo({
-								url: '/pages/levelOne/start/start'
-							})
-						}
 					})
 				}
 			})
@@ -79,10 +69,7 @@ Page({
 		}
 	},
 	onHide: function () {
-        clearInterval(this.data.timer)
-        this.setData({
-            timer:null
-        })
+ 
     },
 	onShareAppMessage: function() {
 		return {

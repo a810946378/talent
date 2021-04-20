@@ -12,7 +12,7 @@
     </view>
     <view class="button-area">
         <view class="button cancel" bindtap="goBack">取消</view>
-        <view class="button save" bindtap="saveImg">保存到相册</view>
+        <button class="button save" bindtap="saveImg">保存到相册</button>
     </view>
     <view class="canvas">
         <wxml-to-canvas class="widget" width="375" height="750"></wxml-to-canvas>
