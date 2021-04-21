@@ -13,7 +13,7 @@ Page({
             {
                 answerList:[
                     {option:"A",des:"SiteWhere",index:0,status:""},
-                    {option:"B",des:"ISula",index:1,status:""}
+                    {option:"B",des:"iSula",index:1,status:""}
                 ],
                 answer:"B"
             },
@@ -111,6 +111,7 @@ Page({
 		return {
 			title:'和我一起变身开源达人吧',
 			path:'pages/index/index',
+			imageUrl:"/img/avatar.png",
 		}
 	}
 })

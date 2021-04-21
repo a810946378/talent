@@ -20,6 +20,7 @@ Page({
 		return {
 			title:'和我一起变身开源达人吧',
 			path:'pages/index/index',
+			imageUrl:"/img/avatar.png",
 		}
 	}
 })

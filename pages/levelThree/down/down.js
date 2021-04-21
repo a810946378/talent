@@ -42,7 +42,7 @@ Page({
     saveImg: function() {
         let url = "https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level3/level-down.png"
         let widget = this.selectComponent('.widget')
-        getApp().globalData.downImage(widget, {url,name:this.data.userName})
+        getApp().globalData.downImage(widget, {url,name:this.data.userName,type:"达人现身"})
     },
     /**
      * 生命周期函数--监听页面显示
@@ -82,6 +82,7 @@ Page({
 		return {
 			title:'和我一起变身开源达人吧',
 			path:'pages/index/index',
+			imageUrl:"/img/avatar.png",
 		}
 	}
 })

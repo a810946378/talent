@@ -3,7 +3,7 @@ const wxml = (data) => {
     <view class="container">
         <image mode="widthFix" class="bgImg" src="${data.url}" />
         <text class="name">亲爱的${data.name}</text>
-        <text class="des">恭喜您获得达人现身勋章！</text>
+        <text class="des">恭喜您获得${data.type}勋章！</text>
     </view>
     `
 }
