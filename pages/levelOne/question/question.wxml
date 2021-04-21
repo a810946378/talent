@@ -17,12 +17,12 @@
         data-item="{{item}}"
     >
         {{item.des}}
-        <image wx:if="{{item.status}}" class="item-icon" src="{{item.status=='error'?'/img/iserror.png':'/img/istrue.png'}}"></image>
+        <image wx:if="{{item.status}}" class="item-icon" src="{{item.status=='error'?'https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/iserror.png':'https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/istrue.png'}}"></image>
     </view>      
     <view wx:if="{{fail}}" class="fail-view">
         <image class="fail-img" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/level-fail.png"></image>
         <view class="fail-area">
-            <text class="des">您可以微信分享复活哦～</text>
+            <text class="des">大侠也有失手的时候～</text>
             <view class="button-area">
                 <view class="button share" bindtap="restart">重新挑战</view>
                 <navigator class="button close" hover-class="none" target="miniProgram" open-type="exit">闭关修炼，下次再战</navigator>

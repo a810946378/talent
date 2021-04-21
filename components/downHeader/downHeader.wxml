@@ -1,6 +1,6 @@
 <!--components/header/header.wxml-->
 <view class="header" style="height:{{height}}px">
-    <image bindtap="goBack" class="back-icon" src="/img/back.png"></image>
+    <image bindtap="goBack" class="back-icon" src="https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/back.png"></image>
     <text 
         style="line-height:{{titleHeight}}px" 
         class="title"

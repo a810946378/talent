@@ -7,7 +7,6 @@
         <text class="num">{{progressWidth}}%</text>
         <view style="width:{{progressWidth}}%" class="progress-content"></view>
     </view>
-    <button class="start" wx:if="{{canIUseGetUserProfile}}" bindtap="goStart"> 立即开始 </button>
-    <button class="start" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 立即开始 </button>
-    <!-- <text class="start" bindtap="goStart">立即开始</text> -->
+    <button class="start" wx:if="{{canIUseGetUserProfile && canStart}}" bindtap="goStart"> 立即开始 </button>
+    <button class="start"  wx:if="{{!canIUseGetUserProfile && canStart}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 立即开始 </button>
 </view>

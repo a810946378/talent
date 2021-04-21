@@ -110,7 +110,7 @@
     line-height: 90rpx;
     color: #FFFFFF;
     font-size: 36rpx;
-    border-radius: 18px;
+    border-radius: 18rpx;
     margin-top: 40rpx;
 }
 .level-one-question .fail-view .button-area .button.share{
