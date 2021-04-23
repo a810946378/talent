@@ -13,7 +13,7 @@ Page({
             {
                 answerList:[
                     {option:"A",des:"SiteWhere",index:0,status:""},
-                    {option:"B",des:"iSula",index:1,status:""}
+                    {option:"B",des:"EdgeGallary",index:1,status:""}
                 ],
                 answer:"B"
             },
@@ -48,7 +48,7 @@ Page({
             {
                 answerList:[
                     {option:"A",des:"MindSpore",index:0,status:""},
-                    {option:"B",des:"tensorflow",index:1,status:""}
+                    {option:"B",des:"TensorFlow",index:1,status:""}
                 ],
                 answer:"A"
             },
