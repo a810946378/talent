@@ -9,17 +9,7 @@ Page({
         nowtopic:{},
         questionList:[
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/1.png",
-                answerList:[
-                    {option:"A",des:"freeCodeCamp",index:0,status:""},
-                    {option:"B",des:"OpenHarmony",index:1,status:""},
-                    {option:"C",des:"OpenArkCompiler",index:2,status:""},
-                    {option:"D",des:"EdgeGallery",index:3,status:""}
-                ],
-                answer:"B"
-            },
-            {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/2.png",
+                imgUrl:"/img/openEuler.png",
                 answerList:[
                     {option:"A",des:"OpenHarmony",index:0,status:""},
                     {option:"B",des:"OpenArkCompiler",index:1,status:""},
@@ -27,16 +17,6 @@ Page({
                     {option:"D",des:"openLooKeng",index:3,status:""}
                 ],
                 answer:"C"
-            },
-            {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/3.png",
-                answerList:[
-                    {option:"A",des:"Kubernetes",index:0,status:""},
-                    {option:"B",des:"ServiceComb",index:1,status:""},
-                    {option:"C",des:"openHarmony",index:2,status:""},
-                    {option:"D",des:"KubeEdge",index:3,status:""}   
-                ],
-                answer:"B"
             },
             {
                 imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/4.png",
@@ -49,7 +29,7 @@ Page({
                 answer:"D"
             },
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/5.png",
+                imgUrl:"/img/mindSpore.png",
                 answerList:[
                     {option:"A",des:"MindSpore",index:0,status:""},
                     {option:"B",des:"KubeEdge",index:1,status:""},
@@ -59,11 +39,11 @@ Page({
                 answer:"A"
             },
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/6.png",
+                imgUrl:"/img/openGemini-logo.png",
                 answerList:[
                     {option:"A",des:"OpenHarmony",index:0,status:""},
                     {option:"B",des:"openGauss",index:1,status:""},
-                    {option:"C",des:"openLooKeng",index:2,status:""},
+                    {option:"C",des:"openGemini",index:2,status:""},
                     {option:"D",des:"openEuler",index:3,status:""}
                 ],
                 answer:"C"
@@ -79,16 +59,6 @@ Page({
                 answer:"A"
             },
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/8.png",
-                answerList:[
-                    {option:"A",des:"LiteOS",index:0,status:""},
-                    {option:"B",des:"Volcano",index:1,status:""},
-                    {option:"C",des:"UCOS",index:2,status:""},
-                    {option:"D",des:"Kubernetes",index:3,status:""}
-                ],
-                answer:"B"
-            },
-            {
                 imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/9.png",
                 answerList:[
                     {option:"A",des:"Kubernetes",index:0,status:""},
@@ -99,32 +69,12 @@ Page({
                 answer:"A"
             },
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/10.png",
+                imgUrl:"/img/openLooKengLogo.png",
                 answerList:[
-                    {option:"A",des:"LiteOS",index:0,status:""},
+                    {option:"A",des:"openLookeng",index:0,status:""},
                     {option:"B",des:"Istio",index:1,status:""},
                     {option:"C",des:"SODA",index:2,status:""},
                     {option:"D",des:"KubeEdge",index:3,status:""} 
-                ],
-                answer:"A"
-            },
-            {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/11.png",
-                answerList:[
-                    {option:"A",des:"Istio",index:0,status:""},
-                    {option:"B",des:"Karmada",index:1,status:""},
-                    {option:"C",des:"KubeEdge",index:2,status:""},
-                    {option:"D",des:"OpenArkCompiler",index:3,status:""}
-                ],
-                answer:"A"
-            },
-            {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/12.png",
-                answerList:[
-                    {option:"A",des:"CarbonData",index:0,status:""},
-                    {option:"B",des:"Volcano",index:1,status:""},
-                    {option:"C",des:"OpenArkCompiler",index:2,status:""},
-                    {option:"D",des:"LiteOS",index:3,status:""}
                 ],
                 answer:"A"
             },
@@ -139,14 +89,14 @@ Page({
                 answer:"A"
             },
             {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level2/question/14.png",
+                imgUrl:"/img/modelBox.png",
                 answerList:[
                     {option:"A",des:"OpenArkCompiler",index:0,status:""},
                     {option:"B",des:"MindSpore",index:1,status:""},
                     {option:"C",des:"openHarmony",index:2,status:""},
-                    {option:"D",des:"openGauss",index:3,status:""}  
+                    {option:"D",des:"ModelBox",index:3,status:""}  
                 ],
-                answer:"A"
+                answer:"D"
             },
         ]
     },

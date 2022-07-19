@@ -13,7 +13,7 @@ Page({
             {
                 answerList:[
                     {option:"A",des:"SiteWhere",index:0,status:""},
-                    {option:"B",des:"EdgeGallary",index:1,status:""}
+                    {option:"B",des:"Kurator",index:1,status:""}
                 ],
                 answer:"B"
             },
@@ -27,14 +27,14 @@ Page({
             {
                 answerList:[
                     {option:"A",des:"Kubernetes",index:0,status:""},
-                    {option:"B",des:"Karmada",index:1,status:""}
+                    {option:"B",des:"ModelBox",index:1,status:""}
                 ],
                 answer:"B"
             },
             {
                 answerList:[
-                    {option:"A",des:"Volcano",index:0,status:""},
-                    {option:"B",des:"vue",index:1,status:""} 
+                    {option:"A",des:"openGemini",index:0,status:""},
+                    {option:"B",des:"TiDB",index:1,status:""} 
                 ],
                 answer:"A"
             },

@@ -69,19 +69,9 @@ Page({
                 ],
                 answer:"D"
             },
-            {
-                imgUrl:"https://openeuler-website.obs.ap-southeast-1.myhuaweicloud.com/open-source-talent/level1/question/7.png",
-                answerList:[
-                    {option:"A",des:"SFLC",index:0,status:""},
-                    {option:"B",des:"FSF",index:1,status:""},
-                    {option:"C",des:"OpenI",index:2,status:""},
-                    {option:"D",des:"OpenAtom",index:3,status:""}
-                ],
-                answer:"C"
-            },
         ]
     },
-        /**
+        /**xxxxxxx
      * 生命周期函数--监听页面加载
      */
     onLoad: function () {
